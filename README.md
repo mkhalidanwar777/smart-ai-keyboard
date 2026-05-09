@@ -1,20 +1,105 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Smart AI Keyboard
 
-# Run and deploy your AI Studio app
+An AI-powered smart keyboard application built using React, TypeScript, and Gemini API.  
+This project provides intelligent text correction, smart suggestions, and AI-generated replies in real time.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/e0241055-531a-4e31-a4b3-b584529b9b65
+## Features
 
-## Run Locally
+- Real-time text correction
+- AI-powered smart replies
+- Intelligent sentence suggestions
+- Modern and responsive UI
+- Fast typing assistance
+- Clean and user-friendly interface
+- Gemini API integration
+- Docker support for deployment
 
-**Prerequisites:**  Node.js
+---
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- React
+- TypeScript
+- Vite
+- Gemini API
+- Docker
+- Nginx
+- HTML/CSS
+
+---
+
+## Project Structure
+
+```bash
+src/            # Main application source code
+dist/           # Production build files
+Dockerfile      # Docker deployment configuration
+nginx.conf      # Nginx server configuration
+package.json    # Project dependencies
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mkhalidanwar777/smart-ai-keyboard.git
+```
+
+Go to project folder:
+
+```bash
+cd smart-ai-keyboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## Future Improvements
+
+- Voice-to-text integration
+- Multi-language support
+- Personalized AI suggestions
+- Mobile keyboard integration
+- Cloud synchronization
+
+---
+
+## Author
+
+Muhammad Khalid Anwar  
+AI & Full Stack Developer  
+BSCS Student @ Abdul Wali Khan University Mardan
+
+GitHub:  
+https://github.com/mkhalidanwar777
+
+LinkedIn:  
+https://www.linkedin.com/in/muhammad-khaild-anwar-4bb355368/
+
+---
+
+## License
+
+This project is licensed under the MIT License.
