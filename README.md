@@ -1,105 +1,88 @@
-# Smart AI Keyboard
+# ⌨️ Smart AI Keyboard
 
-An AI-powered smart keyboard application built using React, TypeScript, and Gemini API.  
-This project provides intelligent text correction, smart suggestions, and AI-generated replies in real time.
+> AI-powered smart keyboard built using React, TypeScript, and Gemini API.
 
----
-
-## Features
-
-- Real-time text correction
-- AI-powered smart replies
-- Intelligent sentence suggestions
-- Modern and responsive UI
-- Fast typing assistance
-- Clean and user-friendly interface
-- Gemini API integration
-- Docker support for deployment
+![React](https://img.shields.io/badge/React-Frontend-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-Language-blue?logo=typescript)
+![Gemini API](https://img.shields.io/badge/Gemini-AI-orange)
+![Docker](https://img.shields.io/badge/Docker-Deployment-blue?logo=docker)
 
 ---
 
-## Tech Stack
+## 🚀 Features
 
-- React
-- TypeScript
-- Vite
-- Gemini API
-- Docker
-- Nginx
-- HTML/CSS
+✅ Real-time text correction  
+✅ AI-powered smart replies  
+✅ Intelligent sentence suggestions  
+✅ Fast typing assistance  
+✅ Modern responsive UI  
+✅ Gemini API integration  
+✅ Docker support for deployment  
+✅ Clean and user-friendly interface  
 
 ---
 
-## Project Structure
+## 🛠️ Tech Stack
+
+- ⚛️ React
+- 📘 TypeScript
+- 🤖 Gemini API
+- 🐳 Docker
+- 🎨 CSS
+
+---
+
+## 📂 Project Structure
 
 ```bash
-src/            # Main application source code
-dist/           # Production build files
-Dockerfile      # Docker deployment configuration
-nginx.conf      # Nginx server configuration
-package.json    # Project dependencies
+src/           # Application source code
+dist/          # Production build
+Dockerfile     # Docker deployment
+nginx.conf     # Nginx configuration
 ```
 
 ---
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/mkhalidanwar777/smart-ai-keyboard.git
-```
-
-Go to project folder:
-
-```bash
-cd smart-ai-keyboard
-```
-
-Install dependencies:
+## ⚙️ Installation
 
 ```bash
 npm install
 ```
 
-Run development server:
+---
+
+## ▶️ Run the Project
 
 ```bash
 npm run dev
 ```
 
-Build for production:
+---
+
+## 🐳 Docker Deployment
 
 ```bash
-npm run build
+docker build -t smart-ai-keyboard .
+docker run -p 8080:8080 smart-ai-keyboard
 ```
 
 ---
 
-## Future Improvements
+## 📌 Future Improvements
 
-- Voice-to-text integration
-- Multi-language support
-- Personalized AI suggestions
-- Mobile keyboard integration
-- Cloud synchronization
-
----
-
-## Author
-
-Muhammad Khalid Anwar  
-AI & Full Stack Developer  
-BSCS Student @ Abdul Wali Khan University Mardan
-
-GitHub:  
-https://github.com/mkhalidanwar777
-
-LinkedIn:  
-https://www.linkedin.com/in/muhammad-khaild-anwar-4bb355368/
+- Voice typing support
+- Multi-language translation
+- Custom AI writing styles
+- Offline AI prediction support
 
 ---
 
-## License
+## 👨‍💻 Author
 
-This project is licensed under the MIT License.
+**Muhammad Khalid Anwar**  
+🎓 BS Computer Science Student  
+🏫 Abdul Wali Khan University Mardan  
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub.
